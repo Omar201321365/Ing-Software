@@ -20,7 +20,7 @@ public class Principal extends AppCompatActivity{
 
     public void IdentificarA (View view){
 
-        Intent intent = new Intent(this, IdentificArticulos.class);
+        Intent intent = new Intent(this, IdentificarA.class);
         startActivity(intent);
     }
     public void BuscarR (View view){
@@ -40,7 +40,7 @@ public class Principal extends AppCompatActivity{
     }
     public void EnviarM (View view){
 
-        Intent intent = new Intent(this, Mensajeria.class);
+        Intent intent = new Intent(this, Mensajes.class);
         startActivity(intent);
     }
 }

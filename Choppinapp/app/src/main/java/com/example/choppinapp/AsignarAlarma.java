@@ -11,7 +11,11 @@ public class AsignarAlarma extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_asignar_alarma);
     }
+    public void AsignarAlarma (View view){
 
+        Intent intent = new Intent(this, AsignarAl.class);
+        startActivity(intent);
+    }
     public void Atras (View view){
 
         Intent intent = new Intent(this, Principal.class);
