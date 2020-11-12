@@ -5,4 +5,5 @@
     <string name="change_time">Cambia la hora</string>
     <string name="select_time">Selecciona la hora</string>
     <string name="new_notification">Nueva notificación</string>
+    <string name="title_activity_rutas">Map</string>
 </resources>

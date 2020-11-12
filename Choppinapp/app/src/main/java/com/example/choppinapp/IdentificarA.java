@@ -35,7 +35,15 @@ public class IdentificarA extends AppCompatActivity {
         if (ContextCompat.checkSelfPermission(IdentificarA.this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(IdentificarA.this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(IdentificarA.this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.CAMERA}, 1000);
         }
+
     }
+
+    public void Atras (View view){
+
+        Intent intent = new Intent(this, Principal.class);
+        startActivity(intent);
+    }
+
     String currentPhotoPath;
 
     private File createImageFile() throws IOException {

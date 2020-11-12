@@ -33,14 +33,13 @@ public class Mensajes extends AppCompatActivity {
 
 
 
+
         btnEnviar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 SmsManager smsManager = SmsManager.getDefault();
-                SmsManager.sendTextMessage(etCel.getText().toString(),null,etMsj.getText().toString(),null,null);
-
-
+                smsManager.sendTextMessage(etCel.getText().toString(),null,etMsj.getText().toString(),null,null);
             }
         });
 

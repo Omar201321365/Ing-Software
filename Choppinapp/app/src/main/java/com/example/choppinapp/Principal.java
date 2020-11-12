@@ -25,7 +25,7 @@ public class Principal extends AppCompatActivity{
     }
     public void BuscarR (View view){
 
-        Intent intent = new Intent(this, BuscaRuta.class);
+        Intent intent = new Intent(this, Rutas.class);
         startActivity(intent);
     }
     public void AsignarAl (View view){
